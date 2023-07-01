@@ -1,0 +1,7 @@
+{
+  "Name": "fastnet server demo",
+  "TCPPort": 29001,
+  "LogDir": "./log",
+  "LogFile": "app.log",
+  "LogIsolationLevel": 0
+}
