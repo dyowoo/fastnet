@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	l := 100
+	l := 1
 	var clientList = make(map[int]fastnet.IClient, l)
 	for i := 1; i <= l; i++ {
 		go func(i int) {
@@ -25,7 +25,7 @@ func main() {
 
 			clientList[i] = client
 
-			time.Sleep(time.Second * 10)
+			time.Sleep(time.Second * 1)
 
 			go func(i int) {
 				for {
