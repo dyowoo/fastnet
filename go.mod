@@ -6,7 +6,8 @@ require (
 	github.com/gorilla/websocket v1.5.0 // indirect
 )
 
-retract v1.0.3
-retract v1.0.2
-retract v1.0.1
-retract v1.0.0
+retract (
+	v1.0.3
+	v1.0.2
+	v1.0.1
+)
